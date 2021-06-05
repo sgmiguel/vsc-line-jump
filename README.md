@@ -1,6 +1,9 @@
 # vsc-line-jump
 
-This is the README for your extension "line-jump". After writing up a brief description, we recommend including the following sections.
+A Visual Studio Code extension to make relative line jumps.
+
+## Why
+Made for mouseless developers, especially helpful when working on large files, to jump into relative lines.
 
 ## Preview
 
