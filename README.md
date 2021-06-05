@@ -4,4 +4,4 @@ This is the README for your extension "line-jump". After writing up a brief desc
 
 ## Preview
 
-\!\[feature X\]\(preview.gif\)
+![feature X](preview.gif)
