@@ -7,8 +7,8 @@ Made for mouseless developers, especially helpful when working on large files, t
 
 ## Usage
 The default keybinds are set to:
-- Jump up: Ctr+K Ctrl+H
-- Jump down: Ctr+K Ctrl+K
+- Jump up: Ctr+J Ctrl+H
+- Jump down: Ctr+J Ctrl+K
 
 ## Preview
 
