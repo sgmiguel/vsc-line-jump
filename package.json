@@ -1,0 +1,46 @@
+{
+	"name": "line-jump",
+	"displayName": "line-jump",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:line-jump.jumpUp",
+		"onCommand:line-jump.jumpDown"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [],
+		"keybindings": [
+			{
+				"command": "line-jump.jumpUp",
+				"key": "ctrl+j ctrl+h",
+				"mac": "ctrl+j ctrl+h",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "line-jump.jumpDown",
+				"key": "ctrl+j ctrl+k",
+				"mac": "ctrl+j ctrl+k",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.56.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	}
+}
